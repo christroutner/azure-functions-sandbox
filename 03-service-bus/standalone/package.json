@@ -1,0 +1,14 @@
+{
+  "name": "03-service-bus",
+  "version": "1.0.0",
+  "description": "This directory contains code for working with Service Bus. The goal is to create two Azure Functions:\r - The first function should be triggered by an HTTP endpoint.\r - The first function writes a message to the Service Pub.\r - The second function subscribes to a pubsub topic on the Service Bus.\r - The second function is triggered by the message written to the Service Bus by the first function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "7.9.3"
+  }
+}
